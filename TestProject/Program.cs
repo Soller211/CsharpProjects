@@ -18,8 +18,7 @@ namespace TestProject
         int heroAttack = random.Next(1, 11);
         monsterHealth -= heroAttack;
 
-        Console.WriteLine($"The hero attacks and deals {heroAttack} damage to the monster!");
-        Console.WriteLine($"The monster has {monsterHealth} health left.");
+        Console.WriteLine($"Monster was damaged and lost {heroAttack} and now has {monsterHealth} health");
 
         if (monsterHealth <= 0)
           break;
@@ -27,18 +26,17 @@ namespace TestProject
         //Ataque del monstruo
         int monsterAttack = random.Next(1, 11);
         heroHealth -= monsterAttack;
-        
-        Console.WriteLine($"The monster attacks and deals {monsterAttack} damage to the hero!");
-        Console.WriteLine($"The hero has {heroHealth} health left.");
+
+        Console.WriteLine($"Hero was damaged and lost {monsterAttack} and now has {heroHealth} health");
 
       } while (heroHealth > 0 && monsterHealth > 0);
 
       Console.WriteLine("The fight is over!");
 
       if (heroHealth > 0)
-        Console.WriteLine("The hero won!");
+        Console.WriteLine("The hero wins!");
       else if (monsterHealth > 0)
-        Console.WriteLine("The monster won!");
+        Console.WriteLine("The monster wins!");
       else
         Console.WriteLine("Both dont have health, its a draw!");
     }
