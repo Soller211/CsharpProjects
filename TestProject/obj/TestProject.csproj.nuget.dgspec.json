@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\eddyg\\Desktop\\CsharpProjects\\TestProject\\TestProject.csproj": {}
+    "C:\\Users\\eddyg\\Desktop\\CsharpProjects\\TestProject\\TestProject.csproj": {}
   },
   "projects": {
-    "c:\\Users\\eddyg\\Desktop\\CsharpProjects\\TestProject\\TestProject.csproj": {
+    "C:\\Users\\eddyg\\Desktop\\CsharpProjects\\TestProject\\TestProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\eddyg\\Desktop\\CsharpProjects\\TestProject\\TestProject.csproj",
+        "projectUniqueName": "C:\\Users\\eddyg\\Desktop\\CsharpProjects\\TestProject\\TestProject.csproj",
         "projectName": "TestProject",
-        "projectPath": "c:\\Users\\eddyg\\Desktop\\CsharpProjects\\TestProject\\TestProject.csproj",
+        "projectPath": "C:\\Users\\eddyg\\Desktop\\CsharpProjects\\TestProject\\TestProject.csproj",
         "packagesPath": "C:\\Users\\eddyg\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\eddyg\\Desktop\\CsharpProjects\\TestProject\\obj\\",
+        "outputPath": "C:\\Users\\eddyg\\Desktop\\CsharpProjects\\TestProject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
